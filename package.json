@@ -1,0 +1,22 @@
+{
+  "name": "getbloqs.github.io",
+  "version": "1.0.0",
+  "description": "bloqs project website",
+  "main": "index.js",
+  "scripts": {
+    "build": "cp node_modules/normalize.css/normalize.css css/normalize.css && cp node_modules/milligram/dist/milligram.min.css css/milligram.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getbloqs/getbloqs.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getbloqs/getbloqs.github.io/issues"
+  },
+  "homepage": "https://github.com/getbloqs/getbloqs.github.io#readme",
+  "dependencies": {
+    "milligram": "^1.3.0"
+  }
+}

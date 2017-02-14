@@ -1,0 +1,43 @@
+header {    
+    padding:8vh 0;    
+    text-align:center;
+    background: #f4f5f6;
+}
+
+.cases {
+    padding:20px;
+}
+
+.cases > h2 {
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.case {    
+    border-left: 3px solid #9b4dca;
+    background: #f4f5f6;
+    padding:20px;
+    margin-bottom:30px;
+}
+
+.container {
+    margin-top:70px;
+    margin-bottom:70px;
+}
+
+footer {
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+footer .row {
+    border-top:1px solid #f4f5f6;
+}
+
+footer .column > div {
+    padding:20px;
+}
+
+footer .right {
+    text-align:right;
+}
