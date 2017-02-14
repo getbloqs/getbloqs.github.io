@@ -31,7 +31,7 @@ footer {
 }
 
 footer .row {
-    border-top:1px solid #f4f5f6;
+    border-top:1px solid #eee;
 }
 
 footer .column > div {
@@ -40,4 +40,8 @@ footer .column > div {
 
 footer .right {
     text-align:right;
+}
+
+.netidee-logo {
+    text-align:center;
 }
