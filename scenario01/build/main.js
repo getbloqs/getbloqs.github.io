@@ -1,1 +1,551 @@
-webpackJsonp([1],{107:function(n,l,t){function e(n){var l=u[n];return l?t.e(l[1]).then(function(){return t(l[0])}):Promise.reject(new Error("Cannot find module '"+n+"'."))}var u={"../pages/bet-form/bet-form.module.ngfactory":[154,0]};e.keys=function(){return Object.keys(u)},e.id=107,n.exports=e},124:function(n,l,t){"use strict";function e(n){return I._24(0,[(n()(),I._4(0,null,null,2,"ion-nav",[],null,null,null,nn.b,nn.a)),I._3(4374528,null,0,ln.a,[[2,tn.a],[2,en.a],R.a,un.a,on.a,I.k,I.y,I.E,I.j,j.g,Z.a,[2,_n.a],D.a,I.l],{root:[0,"root"]},null),I._20(6144,null,rn.a,null,[ln.a]),(n()(),I._23(null,["\n"]))],function(n,l){n(l,1,0,l.component.rootPage)},null)}function u(n){return I._24(0,[(n()(),I._4(0,null,null,44,"ion-card",[],null,null,null,null,null)),I._3(16384,null,0,pn.a,[un.a,I.k,I.E],null,null),(n()(),I._23(null,["\n      "])),(n()(),I._4(0,null,null,40,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,hn.b,hn.a)),I._3(1097728,null,3,fn.a,[U.a,un.a,I.k,I.E,[2,dn.a]],null,null),I._21(335544320,1,{contentLabel:0}),I._21(603979776,2,{_buttons:1}),I._21(603979776,3,{_icons:1}),I._3(16384,null,0,bn.a,[],null,null),(n()(),I._23(2,["\n        "])),(n()(),I._4(0,null,0,5,"ion-avatar",[["item-start",""]],null,null,null,null,null)),I._3(16384,null,0,gn.a,[],null,null),(n()(),I._23(null,["\n          "])),(n()(),I._4(0,null,null,1,"ion-icon",[["color","danger"],["name","alert"],["role","img"]],[[2,"hide",null]],null,null,null,null)),I._3(147456,null,0,mn.a,[un.a,I.k,I.E],{color:[0,"color"],name:[1,"name"]},null),(n()(),I._23(null,["            \n        "])),(n()(),I._23(2,["\n        "])),(n()(),I._4(0,null,2,1,"h2",[],null,null,null,null,null)),(n()(),I._23(null,["Nutzungshinweis"])),(n()(),I._23(2,["\n        "])),(n()(),I._4(0,null,2,7,"p",[],null,null,null,null,null)),(n()(),I._23(null,["Um diese Anwendung nutzen zu können wird das Browser Plugin "])),(n()(),I._4(0,null,null,1,"a",[["href","https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn"],["target","_blank"]],null,null,null,null,null)),(n()(),I._23(null,["MetaMask"])),(n()(),I._23(null,[" benötigt. Diese Anwendung soll am Beispiel von Sportwetten die Funktionsweise von Smart Contracts demonstrieren. Der "])),(n()(),I._4(0,null,null,1,"a",[["href","https://ropsten.etherscan.io/address/0xbee0dd7967b85cb83edff86d21df641a09ff9bb0"],["target","_blank"]],null,null,null,null,null)),(n()(),I._23(null,["Smart Contract"])),(n()(),I._23(null,[" wird im Ethereum Testnetzwerk (Ropsten) betrieben. Mittels einer sog. Faucet können Ethereum Ropsten Tokens kostenlos bezogen werden und damit kann an der Sportwette teilgenommen werden."])),(n()(),I._23(2,["\n\n        "])),(n()(),I._4(0,null,2,13,"ol",[],null,null,null,null,null)),(n()(),I._23(null,["\n          "])),(n()(),I._4(0,null,null,1,"li",[],null,null,null,null,null)),(n()(),I._23(null,["Download des MetaMask Chrome Plugins"])),(n()(),I._23(null,["\n          "])),(n()(),I._4(0,null,null,1,"li",[],null,null,null,null,null)),(n()(),I._23(null,["Ropsten Test Network auswählen im MetaMask Plugin"])),(n()(),I._23(null,["\n          "])),(n()(),I._4(0,null,null,1,"li",[],null,null,null,null,null)),(n()(),I._23(null,['Über den Button "Buy" kostenlos Ethereum Testnet Token beziehen'])),(n()(),I._23(null,["\n          "])),(n()(),I._4(0,null,null,1,"li",[],null,null,null,null,null)),(n()(),I._23(null,["Seite neu Laden und Wetteinsatz plazieren"])),(n()(),I._23(null,["          \n        "])),(n()(),I._23(2,["\n      "])),(n()(),I._23(null,["     \n    \n  "]))],function(n,l){n(l,14,0,"danger","alert")},function(n,l){n(l,13,0,I._17(l,14)._hidden)})}function o(n){return I._24(0,[(n()(),I._4(0,null,null,32,"ion-card",[],null,null,null,null,null)),I._3(16384,null,0,pn.a,[un.a,I.k,I.E],null,null),(n()(),I._23(null,["\n      "])),(n()(),I._4(0,null,null,28,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,hn.b,hn.a)),I._3(1097728,null,3,fn.a,[U.a,un.a,I.k,I.E,[2,dn.a]],null,null),I._21(335544320,4,{contentLabel:0}),I._21(603979776,5,{_buttons:1}),I._21(603979776,6,{_icons:1}),I._3(16384,null,0,bn.a,[],null,null),(n()(),I._23(2,["\n          "])),(n()(),I._4(0,null,0,5,"ion-avatar",[["item-start",""]],null,null,null,null,null)),I._3(16384,null,0,gn.a,[],null,null),(n()(),I._23(null,["\n            "])),(n()(),I._4(0,null,null,1,"ion-icon",[["color","danger"],["name","alert"],["role","img"]],[[2,"hide",null]],null,null,null,null)),I._3(147456,null,0,mn.a,[un.a,I.k,I.E],{color:[0,"color"],name:[1,"name"]},null),(n()(),I._23(null,["            \n          "])),(n()(),I._23(2,["\n          "])),(n()(),I._4(0,null,2,1,"h2",[],null,null,null,null,null)),(n()(),I._23(null,["Nutzungshinweis"])),(n()(),I._23(2,["\n          "])),(n()(),I._4(0,null,2,10,"ul",[],null,null,null,null,null)),(n()(),I._23(null,["\n            "])),(n()(),I._4(0,null,null,1,"li",[],null,null,null,null,null)),(n()(),I._23(null,["Bis zum Spielbeginn (02.09.2017, 20:45) können Wetten abgegeben werden. (Status: Offen)"])),(n()(),I._23(null,["\n            "])),(n()(),I._4(0,null,null,1,"li",[],null,null,null,null,null)),(n()(),I._23(null,["Nach Spielbeginn wird der Status auf 'Gesperrt' gesetzt und es können keine Wetten mehr abgeschlossen werden."])),(n()(),I._23(null,["\n            "])),(n()(),I._4(0,null,null,1,"li",[],null,null,null,null,null)),(n()(),I._23(null,["Nach Spielende können Wettgewinne ausgezahlt werden. (Status: Finalisiert)"])),(n()(),I._23(null,["\n          "])),(n()(),I._23(2,["\n        "])),(n()(),I._23(null,["     \n  "]))],function(n,l){n(l,14,0,"danger","alert")},function(n,l){n(l,13,0,I._17(l,14)._hidden)})}function _(n){return I._24(0,[(n()(),I._4(0,null,null,2,"ion-col",[["class","col"],["col-3",""]],null,null,null,null,null)),I._3(16384,null,0,yn.a,[],null,null),(n()(),I._23(null,[""," ETH"]))],null,function(n,l){n(l,2,0,l.component.sportsBet.tipAmounts[0])})}function i(n){return I._24(0,[(n()(),I._4(0,null,null,1,null,null,null,null,null,null,null)),(n()(),I._23(null,[""," ETH"]))],null,function(n,l){n(l,1,0,l.component.sportsBet.yourBet.amount)})}function r(n){return I._24(0,[(n()(),I._4(0,null,null,2,"ion-col",[["class","col"],["col-3",""]],null,null,null,null,null)),I._3(16384,null,0,yn.a,[],null,null),(n()(),I._23(null,["1:",""]))],null,function(n,l){n(l,2,0,l.component.sportsBet.odds[0]/100)})}function a(n){return I._24(0,[(n()(),I._4(0,null,null,2,"ion-col",[["class","col"],["col-3",""]],null,null,null,null,null)),I._3(16384,null,0,yn.a,[],null,null),(n()(),I._23(null,[""," ETH"]))],null,function(n,l){n(l,2,0,l.component.sportsBet.tipAmounts[1])})}function s(n){return I._24(0,[(n()(),I._4(0,null,null,1,null,null,null,null,null,null,null)),(n()(),I._23(null,[""," ETH"]))],null,function(n,l){n(l,1,0,l.component.sportsBet.yourBet.amount)})}function c(n){return I._24(0,[(n()(),I._4(0,null,null,2,"ion-col",[["class","col"],["col-3",""]],null,null,null,null,null)),I._3(16384,null,0,yn.a,[],null,null),(n()(),I._23(null,["1:",""]))],null,function(n,l){n(l,2,0,l.component.sportsBet.odds[1]/100)})}function p(n){return I._24(0,[(n()(),I._4(0,null,null,2,"ion-col",[["class","col"],["col-3",""]],null,null,null,null,null)),I._3(16384,null,0,yn.a,[],null,null),(n()(),I._23(null,[""," ETH"]))],null,function(n,l){n(l,2,0,l.component.sportsBet.tipAmounts[2])})}function h(n){return I._24(0,[(n()(),I._4(0,null,null,1,null,null,null,null,null,null,null)),(n()(),I._23(null,[""," ETH"]))],null,function(n,l){n(l,1,0,l.component.sportsBet.yourBet.amount)})}function f(n){return I._24(0,[(n()(),I._4(0,null,null,2,"ion-col",[["class","col"],["col-3",""]],null,null,null,null,null)),I._3(16384,null,0,yn.a,[],null,null),(n()(),I._23(null,["1:",""]))],null,function(n,l){n(l,2,0,l.component.sportsBet.odds[2]/100)})}function d(n){return I._24(0,[(n()(),I._4(0,null,null,2,"button",[["ion-button",""]],null,[[null,"click"]],function(n,l,t){var e=!0,u=n.component;return"click"===l&&(e=!1!==u.bet()&&e),e},wn.b,wn.a)),I._3(1097728,[[14,4]],0,Bn.a,[[8,""],un.a,I.k,I.E],null,null),(n()(),I._23(0,["Tipp abgeben"]))],null,null)}function b(n){return I._24(0,[(n()(),I._4(0,null,null,2,"button",[["color","danger"],["ion-button",""]],null,[[null,"click"]],function(n,l,t){var e=!0,u=n.component;return"click"===l&&(e=!1!==u.lockBet()&&e),e},wn.b,wn.a)),I._3(1097728,[[14,4]],0,Bn.a,[[8,""],un.a,I.k,I.E],{color:[0,"color"]},null),(n()(),I._23(0,["Wette sperren"]))],function(n,l){n(l,1,0,"danger")},null)}function g(n){return I._24(0,[(n()(),I._4(0,null,null,2,"button",[["color","danger"],["ion-button",""]],null,[[null,"click"]],function(n,l,t){var e=!0,u=n.component;return"click"===l&&(e=!1!==u.finalizeBet()&&e),e},wn.b,wn.a)),I._3(1097728,[[14,4]],0,Bn.a,[[8,""],un.a,I.k,I.E],{color:[0,"color"]},null),(n()(),I._23(0,["Wette abschließen"]))],function(n,l){n(l,1,0,"danger")},null)}function m(n){return I._24(0,[(n()(),I._4(0,null,null,2,"button",[["color","secondary"],["ion-button",""]],null,[[null,"click"]],function(n,l,t){var e=!0,u=n.component;return"click"===l&&(e=!1!==u.payout()&&e),e},wn.b,wn.a)),I._3(1097728,[[14,4]],0,Bn.a,[[8,""],un.a,I.k,I.E],{color:[0,"color"]},null),(n()(),I._23(0,["Gewinn auszahlen"]))],function(n,l){n(l,1,0,"secondary")},null)}function y(n){return I._24(0,[(n()(),I._4(0,null,null,1,"p",[["class","winner"]],null,null,null,null,null)),(n()(),I._23(null,["Ihr Gewinn wurde bereits ausbezahlt."]))],null,null)}function w(n){return I._24(0,[(n()(),I._4(0,null,null,1,"p",[["class","loser"]],null,null,null,null,null)),(n()(),I._23(null,["Leider hat Ihr Tipp nicht gewonnen."]))],null,null)}function B(n){return I._24(0,[(n()(),I._4(0,null,null,164,"ion-card",[],null,null,null,null,null)),I._3(16384,null,0,pn.a,[un.a,I.k,I.E],null,null),(n()(),I._23(null,["\n    "])),(n()(),I._4(0,null,null,2,"ion-card-header",[],null,null,null,null,null)),I._3(16384,null,0,kn.a,[un.a,I.k,I.E],null,null),(n()(),I._23(null,["\n        ","\n    "])),(n()(),I._23(null,["\n    \n    "])),(n()(),I._4(0,null,null,156,"ion-list",[],null,null,null,null,null)),I._3(16384,null,0,Cn.a,[un.a,I.k,I.E,on.a,j.g,D.a],null,null),(n()(),I._23(null,["\n      "])),(n()(),I._4(0,null,null,21,"ion-item",[["class","item item-block"]],null,null,null,hn.b,hn.a)),I._3(1097728,null,3,fn.a,[U.a,un.a,I.k,I.E,[2,dn.a]],null,null),I._21(335544320,7,{contentLabel:0}),I._21(603979776,8,{_buttons:1}),I._21(603979776,9,{_icons:1}),I._3(16384,null,0,bn.a,[],null,null),(n()(),I._23(2,["\n        "])),(n()(),I._4(0,null,0,13,"ion-note",[["item-start",""]],null,null,null,null,null)),I._3(16384,null,0,In.a,[un.a,I.k,I.E],null,null),(n()(),I._23(null,["\n          Gesamter Wetteinsatz: "," ETH"])),(n()(),I._4(0,null,null,0,"br",[],null,null,null,null,null)),(n()(),I._23(null,["\n          Status: ",""])),(n()(),I._4(0,null,null,0,"br",[],null,null,null,null,null)),(n()(),I._23(null,["\n          Smart Contract: "])),(n()(),I._4(0,null,null,1,"a",[["href","https://ropsten.etherscan.io/address/0xbee0dd7967b85cb83edff86d21df641a09ff9bb0"],["target","_blank"]],null,null,null,null,null)),(n()(),I._23(null,["0xbee0dd7967b85cb83edff86d21df641a09ff9bb0"])),(n()(),I._4(0,null,null,0,"br",[],null,null,null,null,null)),(n()(),I._23(null,["\n          Ersteller: "])),(n()(),I._4(0,null,null,1,"a",[["target","_blank"]],[[8,"href",4]],null,null,null,null)),(n()(),I._23(null,["",""])),(n()(),I._23(null,["\n        "])),(n()(),I._23(2,["\n      "])),(n()(),I._23(null,["\n\n      "])),(n()(),I._4(0,null,null,103,"ion-item",[["class","item item-block"]],null,null,null,hn.b,hn.a)),I._3(1097728,null,3,fn.a,[U.a,un.a,I.k,I.E,[2,dn.a]],null,null),I._21(335544320,10,{contentLabel:0}),I._21(603979776,11,{_buttons:1}),I._21(603979776,12,{_icons:1}),I._3(16384,null,0,bn.a,[],null,null),(n()(),I._23(2,["\n\n        "])),(n()(),I._4(0,null,2,95,"ion-grid",[["class","grid"]],null,null,null,null,null)),I._3(16384,null,0,En.a,[],null,null),(n()(),I._23(null,["\n          "])),(n()(),I._4(0,null,null,22,"ion-row",[["class","row"]],null,null,null,null,null)),I._3(16384,null,0,Sn.a,[],null,null),(n()(),I._23(null,["\n            "])),(n()(),I._4(0,null,null,3,"ion-col",[["class","col"],["col-2",""]],null,null,null,null,null)),I._3(16384,null,0,yn.a,[],null,null),(n()(),I._4(0,null,null,1,"b",[],null,null,null,null,null)),(n()(),I._23(null,["Tipp"])),(n()(),I._23(null,["\n            "])),(n()(),I._4(0,null,null,3,"ion-col",[["class","col"],["col-3",""]],null,null,null,null,null)),I._3(16384,null,0,yn.a,[],null,null),(n()(),I._4(0,null,null,1,"b",[],null,null,null,null,null)),(n()(),I._23(null,["Wetteinsätze"])),(n()(),I._23(null,["\n            "])),(n()(),I._4(0,null,null,3,"ion-col",[["class","col"],["col-3",""]],null,null,null,null,null)),I._3(16384,null,0,yn.a,[],null,null),(n()(),I._4(0,null,null,1,"b",[],null,null,null,null,null)),(n()(),I._23(null,["Ihr Einsatz"])),(n()(),I._23(null,["\n            "])),(n()(),I._4(0,null,null,3,"ion-col",[["class","col"],["col-3",""]],null,null,null,null,null)),I._3(16384,null,0,yn.a,[],null,null),(n()(),I._4(0,null,null,1,"b",[],null,null,null,null,null)),(n()(),I._23(null,["Wettquote"])),(n()(),I._23(null,["\n          "])),(n()(),I._23(null,["\n          "])),(n()(),I._4(0,null,null,21,"ion-row",[["class","row"]],null,null,null,null,null)),I._3(278528,null,0,L.f,[I.s,I.t,I.k,I.E],{ngClass:[0,"ngClass"]},null),I._19(["winner"]),I._3(16384,null,0,Sn.a,[],null,null),(n()(),I._23(null,["\n            "])),(n()(),I._4(0,null,null,2,"ion-col",[["class","col"],["col-2",""]],null,null,null,null,null)),I._3(16384,null,0,yn.a,[],null,null),(n()(),I._23(null,["Team 1"])),(n()(),I._23(null,["\n            "])),(n()(),I._0(16777216,null,null,1,null,_)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(null,["\n            "])),(n()(),I._4(0,null,null,5,"ion-col",[["class","col"],["col-3",""]],null,null,null,null,null)),I._3(16384,null,0,yn.a,[],null,null),(n()(),I._23(null,["\n              "])),(n()(),I._0(16777216,null,null,1,null,i)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(null,["\n            "])),(n()(),I._23(null,["\n            "])),(n()(),I._0(16777216,null,null,1,null,r)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(null,["\n          "])),(n()(),I._23(null,["\n          "])),(n()(),I._4(0,null,null,21,"ion-row",[["class","row"]],null,null,null,null,null)),I._3(278528,null,0,L.f,[I.s,I.t,I.k,I.E],{ngClass:[0,"ngClass"]},null),I._19(["winner"]),I._3(16384,null,0,Sn.a,[],null,null),(n()(),I._23(null,["\n            "])),(n()(),I._4(0,null,null,2,"ion-col",[["class","col"],["col-2",""]],null,null,null,null,null)),I._3(16384,null,0,yn.a,[],null,null),(n()(),I._23(null,["Team 2"])),(n()(),I._23(null,["\n            "])),(n()(),I._0(16777216,null,null,1,null,a)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(null,["\n            "])),(n()(),I._4(0,null,null,5,"ion-col",[["class","col"],["col-3",""]],null,null,null,null,null)),I._3(16384,null,0,yn.a,[],null,null),(n()(),I._23(null,["\n                "])),(n()(),I._0(16777216,null,null,1,null,s)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(null,["\n              "])),(n()(),I._23(null,["\n            "])),(n()(),I._0(16777216,null,null,1,null,c)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(null,["\n          "])),(n()(),I._23(null,["\n          "])),(n()(),I._4(0,null,null,21,"ion-row",[["class","row"]],null,null,null,null,null)),I._3(278528,null,0,L.f,[I.s,I.t,I.k,I.E],{ngClass:[0,"ngClass"]},null),I._19(["winner"]),I._3(16384,null,0,Sn.a,[],null,null),(n()(),I._23(null,["\n            "])),(n()(),I._4(0,null,null,2,"ion-col",[["class","col"],["col-2",""]],null,null,null,null,null)),I._3(16384,null,0,yn.a,[],null,null),(n()(),I._23(null,["Unentschieden"])),(n()(),I._23(null,["\n            "])),(n()(),I._0(16777216,null,null,1,null,p)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(null,["\n            "])),(n()(),I._4(0,null,null,5,"ion-col",[["class","col"],["col-3",""]],null,null,null,null,null)),I._3(16384,null,0,yn.a,[],null,null),(n()(),I._23(null,["\n                "])),(n()(),I._0(16777216,null,null,1,null,h)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(null,["\n              "])),(n()(),I._23(null,["\n            "])),(n()(),I._0(16777216,null,null,1,null,f)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(null,["\n          "])),(n()(),I._23(null,["\n        "])),(n()(),I._23(2,["\n\n      "])),(n()(),I._23(null,["\n\n      "])),(n()(),I._4(0,null,null,24,"ion-item",[["class","item item-block"]],null,null,null,hn.b,hn.a)),I._3(1097728,null,3,fn.a,[U.a,un.a,I.k,I.E,[2,dn.a]],null,null),I._21(335544320,13,{contentLabel:0}),I._21(603979776,14,{_buttons:1}),I._21(603979776,15,{_icons:1}),I._3(16384,null,0,bn.a,[],null,null),(n()(),I._23(2,["\n        "])),(n()(),I._0(16777216,null,2,1,null,d)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(2,["\n        "])),(n()(),I._0(16777216,null,2,1,null,b)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(2,["\n        "])),(n()(),I._0(16777216,null,2,1,null,g)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(2,["\n        "])),(n()(),I._0(16777216,null,2,1,null,m)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(2,["\n\n        "])),(n()(),I._0(16777216,null,2,1,null,y)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(2,["\n        "])),(n()(),I._0(16777216,null,2,1,null,w)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(2,["\n      "])),(n()(),I._23(null,["\n\n    "])),(n()(),I._23(null,["\n\n  "]))],function(n,l){var t=l.component;n(l,68,0,n(l,69,0,1==t.sportsBet.winningTip)),n(l,77,0,t.sportsBet.tipAmounts[0]),n(l,83,0,1==t.sportsBet.yourBet.tip),n(l,87,0,t.sportsBet.odds[0]),n(l,91,0,n(l,92,0,2==t.sportsBet.winningTip)),n(l,100,0,t.sportsBet.tipAmounts[1]),n(l,106,0,2==t.sportsBet.yourBet.tip),n(l,110,0,t.sportsBet.odds[1]),n(l,114,0,n(l,115,0,3==t.sportsBet.winningTip)),n(l,123,0,t.sportsBet.tipAmounts[2]),n(l,129,0,3==t.sportsBet.yourBet.tip),n(l,133,0,t.sportsBet.odds[2]),n(l,146,0,0==t.sportsBet.state),n(l,149,0,0==t.sportsBet.state&&t.isOwner()),n(l,152,0,1==t.sportsBet.state&&t.isOwner()),n(l,155,0,2==t.sportsBet.state&&t.sportsBet.winningTip==t.sportsBet.yourBet.tip&&t.sportsBet.yourBet.amount>0),n(l,158,0,2==t.sportsBet.state&&t.sportsBet.winningTip==t.sportsBet.yourBet.tip&&t.sportsBet.yourBet.amount>0),n(l,161,0,2==t.sportsBet.state&&t.sportsBet.winningTip!=t.sportsBet.yourBet.tip)},function(n,l){var t=l.component;n(l,5,0,t.sportsBet.name),n(l,19,0,t.sportsBet.total),n(l,21,0,t.state),n(l,28,0,"https://ropsten.etherscan.io/address/"+t.sportsBet.owner),n(l,29,0,t.sportsBet.owner)})}function k(n){return I._24(0,[(n()(),I._4(0,null,null,10,"ion-header",[],null,null,null,null,null)),I._3(16384,null,0,An.a,[un.a,I.k,I.E,[2,tn.a]],null,null),(n()(),I._23(null,["\n  "])),(n()(),I._4(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Pn.b,Pn.a)),I._3(49152,null,0,Tn.a,[R.a,[2,tn.a],[2,en.a],un.a,I.k,I.E],null,null),(n()(),I._23(3,["\n    "])),(n()(),I._4(0,null,3,2,"ion-title",[],null,null,null,Ln.b,Ln.a)),I._3(49152,null,0,On.a,[un.a,I.k,I.E,[2,Dn.a],[2,Tn.a]],null,null),(n()(),I._23(0,["\n      Sportwetten\n    "])),(n()(),I._23(3,["\n  "])),(n()(),I._23(null,["\n"])),(n()(),I._23(null,["\n\n"])),(n()(),I._4(0,null,null,11,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Mn.b,Mn.a)),I._3(4374528,null,0,Rn.a,[un.a,on.a,D.a,I.k,I.E,R.a,x.a,I.y,[2,tn.a],[2,en.a]],null,null),(n()(),I._23(1,["\n\n  "])),(n()(),I._0(16777216,null,1,1,null,u)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(1,["\n\n  "])),(n()(),I._0(16777216,null,1,1,null,o)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(1,["\n\n  "])),(n()(),I._0(16777216,null,1,1,null,B)),I._3(16384,null,0,L.h,[I.O,I.L],{ngIf:[0,"ngIf"]},null),(n()(),I._23(1,["\n\n  \n\n"])),(n()(),I._23(null,["\n"]))],function(n,l){var t=l.component;n(l,16,0,!t.web3),n(l,19,0,t.web3),n(l,22,0,t.web3)},function(n,l){n(l,3,0,I._17(l,4)._hidden,I._17(l,4)._sbPadding),n(l,12,0,I._17(l,13).statusbarPadding,I._17(l,13)._hasRefresher)})}Object.defineProperty(l,"__esModule",{value:!0});var C=t(20),I=t(0),E=(t(59),t(57)),S=t(58),A=function(){function n(n,l,t){this.modalController=n,this.alertController=l,this.appRef=t,this.sportsBet={state:-1,winningTip:0,owner:"",name:"",total:0,yourBet:{tip:0,amount:0},tipAmounts:[],odds:[]}}return Object.defineProperty(n.prototype,"state",{get:function(){switch(this.sportsBet.state){case 0:return"Offen";case 1:return"Gesperrt";case 2:return"Finalisiert"}},enumerable:!0,configurable:!0}),n.prototype.continousReload=function(){var n=this;this.reloadData(),setTimeout(function(){n.continousReload()},4e4)},n.prototype.ionViewDidEnter=function(){if(window.web3){var n=(this.web3=window.web3).eth.contract(this.getAbi());this.sportsBetContractInstance=n.at("0xbee0dd7967b85cb83edff86d21df641a09ff9bb0"),this.continousReload()}},n.prototype.isOwner=function(){return!(!this.web3||!this.web3.eth.defaultAccount)&&this.web3.eth.defaultAccount==this.sportsBet.owner},n.prototype.reloadData=function(){var n=this;this.sportsBetContractInstance.owner.call(function(l,t){n.sportsBet.owner=t,n.appRef.tick()}),this.sportsBetContractInstance.game.call(function(l,t){n.sportsBet.name=t,n.appRef.tick()}),this.sportsBetContractInstance.winningTip.call(function(l,t){n.sportsBet.winningTip=t,n.appRef.tick()}),this.sportsBetContractInstance.total.call(function(l,t){n.sportsBet.total=n.web3.fromWei(t,"ether"),n.appRef.tick()}),this.sportsBetContractInstance.getTipAmount(1,function(l,t){n.sportsBet.tipAmounts[0]=n.web3.fromWei(t,"ether"),n.appRef.tick()}),this.sportsBetContractInstance.getTipAmount(2,function(l,t){n.sportsBet.tipAmounts[1]=n.web3.fromWei(t,"ether"),n.appRef.tick()}),this.sportsBetContractInstance.getTipAmount(3,function(l,t){n.sportsBet.tipAmounts[2]=n.web3.fromWei(t,"ether"),n.appRef.tick()}),this.sportsBetContractInstance.odds(1,function(l,t){n.sportsBet.odds[0]=n.web3.toDecimal(t),n.appRef.tick()}),this.sportsBetContractInstance.odds(2,function(l,t){n.sportsBet.odds[1]=n.web3.toDecimal(t),n.appRef.tick()}),this.sportsBetContractInstance.odds(3,function(l,t){n.sportsBet.odds[2]=n.web3.toDecimal(t),n.appRef.tick()}),this.sportsBetContractInstance.getBetState(function(l,t){n.sportsBet.state=n.web3.toDecimal(t),n.appRef.tick()}),setTimeout(function(){n.web3.eth.defaultAccount&&n.sportsBetContractInstance.getBet(n.web3.eth.defaultAccount,function(l,t){n.sportsBet.yourBet.tip=n.web3.toDecimal(t[0]),n.sportsBet.yourBet.amount=n.web3.fromWei(t[1],"ether"),n.appRef.tick()})},100)},n.prototype.lockBet=function(){var n=this;this.alertController.create({title:"Sportwette sperren",message:"Wollen Sie die Wette jetzt sperren?",buttons:[{text:"Abbrechen"},{text:"Ja",handler:function(){n.sportsBetContractInstance.lockBet(function(l,t){l||n.reloadData()})}}]}).present()},n.prototype.bet=function(){var n=this,l=this.modalController.create("bet-form");l.present(),l.onDidDismiss(function(l){l&&l.tip>0&&l.amount>0&&n.sportsBetContractInstance.bet(l.tip,{value:n.web3.toWei(l.amount,"ether")},function(l,t){l||n.reloadData()})})},n.prototype.finalizeBet=function(){var n=this;this.alertController.create({title:"Wette abschließen"}).addInput({type:"radio",label:"Team 1",value:"1",checked:!1}).addInput({type:"radio",label:"Team 2",value:"2",checked:!1}).addInput({type:"radio",label:"Unentschieden",value:"3",checked:!1}).addButton("Abbrechen").addButton({text:"Ja",handler:function(l){n.sportsBetContractInstance.finalizeBet(l,function(l,t){l||n.reloadData()})}}).present()},n.prototype.payout=function(){var n=this;this.sportsBetContractInstance.payout(function(l,t){l||n.reloadData()})},n.prototype.getAbi=function(){return[{constant:!1,inputs:[{name:"_winningTip",type:"uint256"}],name:"finalizeBet",outputs:[],payable:!1,type:"function"},{constant:!1,inputs:[],name:"lockBet",outputs:[],payable:!1,type:"function"},{constant:!0,inputs:[],name:"total",outputs:[{name:"",type:"uint256"}],payable:!1,type:"function"},{constant:!0,inputs:[{name:"tip",type:"uint256"}],name:"getTipAmount",outputs:[{name:"",type:"uint256"}],payable:!1,type:"function"},{constant:!0,inputs:[{name:"tip",type:"uint256"}],name:"odds",outputs:[{name:"",type:"uint256"}],payable:!1,type:"function"},{constant:!1,inputs:[],name:"payout",outputs:[{name:"",type:"bool"}],payable:!1,type:"function"},{constant:!1,inputs:[{name:"tip",type:"uint256"}],name:"bet",outputs:[],payable:!0,type:"function"},{constant:!0,inputs:[],name:"getBetState",outputs:[{name:"",type:"uint8"}],payable:!1,type:"function"},{constant:!0,inputs:[],name:"owner",outputs:[{name:"",type:"address"}],payable:!1,type:"function"},{constant:!0,inputs:[],name:"winningTip",outputs:[{name:"",type:"uint256"}],payable:!1,type:"function"},{constant:!0,inputs:[],name:"game",outputs:[{name:"",type:"string"}],payable:!1,type:"function"},{constant:!0,inputs:[],name:"locked",outputs:[{name:"",type:"bool"}],payable:!1,type:"function"},{constant:!0,inputs:[{name:"_betOwner",type:"address"}],name:"getBet",outputs:[{name:"",type:"uint256"},{name:"",type:"uint256"}],payable:!1,type:"function"},{inputs:[{name:"_game",type:"string"}],payable:!1,type:"constructor"}]},n}(),P=function(){return function(n,l,t){this.rootPage=A,n.ready().then(function(){l.styleDefault(),t.hide()})}}(),T=function(){return function(){}}(),L=t(12),O=t(113),D=t(8),M=t(38),R=t(6),j=t(5),v=t(78),z=t(19),F=t(87),N=t(80),H=t(50),G=t(79),U=t(13),W=t(52),x=t(25),V=t(53),K=t(82),Z=t(22),J=t(115),q=t(116),Y=t(117),Q=t(118),X=t(119),$=t(120),nn=t(153),ln=t(54),tn=t(4),en=t(16),un=t(1),on=t(3),_n=t(15),rn=t(40),an=[],sn=I._2({encapsulation:2,styles:an,data:{}}),cn=I._1("ng-component",P,function(n){return I._24(0,[(n()(),I._4(0,null,null,1,"ng-component",[],null,null,null,e,sn)),I._3(49152,null,0,P,[on.a,S.a,E.a],null,null)],null,null)},{},{},[]),pn=t(73),hn=t(88),fn=t(18),dn=t(26),bn=t(41),gn=t(72),mn=t(23),yn=t(75),wn=t(33),Bn=t(17),kn=t(74),Cn=t(42),In=t(84),En=t(76),Sn=t(77),An=t(61),Pn=t(121),Tn=t(28),Ln=t(122),On=t(43),Dn=t(35),Mn=t(123),Rn=t(24),jn=[],vn=I._2({encapsulation:2,styles:jn,data:{}}),zn=I._1("page-home",A,function(n){return I._24(0,[(n()(),I._4(0,null,null,1,"page-home",[],null,null,null,k,vn)),I._3(49152,null,0,A,[V.a,H.a,I.f],null,null)],null,null)},{},{},[]),Fn=t(46),Nn=t(81),Hn=t(27),Gn=t(83),Un=t(37),Wn=this&&this.__extends||function(){var n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(n,l){n.__proto__=l}||function(n,l){for(var t in l)l.hasOwnProperty(t)&&(n[t]=l[t])};return function(l,t){function e(){this.constructor=l}n(l,t),l.prototype=null===t?Object.create(t):(e.prototype=t.prototype,new e)}}(),xn=function(n){function l(l){return n.call(this,l,[J.a,q.a,Y.a,Q.a,X.a,$.a,cn,zn],[Y.a])||this}return Wn(l,n),Object.defineProperty(l.prototype,"_LOCALE_ID_25",{get:function(){return null==this.__LOCALE_ID_25&&(this.__LOCALE_ID_25=I._15(this.parent.get(I.u,null))),this.__LOCALE_ID_25},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_NgLocalization_26",{get:function(){return null==this.__NgLocalization_26&&(this.__NgLocalization_26=new L.i(this._LOCALE_ID_25)),this.__NgLocalization_26},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_APP_ID_27",{get:function(){return null==this.__APP_ID_27&&(this.__APP_ID_27=I._6()),this.__APP_ID_27},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_IterableDiffers_28",{get:function(){return null==this.__IterableDiffers_28&&(this.__IterableDiffers_28=I._12()),this.__IterableDiffers_28},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_KeyValueDiffers_29",{get:function(){return null==this.__KeyValueDiffers_29&&(this.__KeyValueDiffers_29=I._14()),this.__KeyValueDiffers_29},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_DomSanitizer_30",{get:function(){return null==this.__DomSanitizer_30&&(this.__DomSanitizer_30=new C.s(this.parent.get(C.b))),this.__DomSanitizer_30},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_Sanitizer_31",{get:function(){return null==this.__Sanitizer_31&&(this.__Sanitizer_31=this._DomSanitizer_30),this.__Sanitizer_31},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_HAMMER_GESTURE_CONFIG_32",{get:function(){return null==this.__HAMMER_GESTURE_CONFIG_32&&(this.__HAMMER_GESTURE_CONFIG_32=new N.a),this.__HAMMER_GESTURE_CONFIG_32},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_EVENT_MANAGER_PLUGINS_33",{get:function(){return null==this.__EVENT_MANAGER_PLUGINS_33&&(this.__EVENT_MANAGER_PLUGINS_33=[new C.l(this.parent.get(C.b)),new C.p(this.parent.get(C.b)),new C.o(this.parent.get(C.b),this._HAMMER_GESTURE_CONFIG_32)]),this.__EVENT_MANAGER_PLUGINS_33},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_EventManager_34",{get:function(){return null==this.__EventManager_34&&(this.__EventManager_34=new C.e(this._EVENT_MANAGER_PLUGINS_33,this.parent.get(I.y))),this.__EventManager_34},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_ɵDomSharedStylesHost_35",{get:function(){return null==this.__ɵDomSharedStylesHost_35&&(this.__ɵDomSharedStylesHost_35=new C.n(this.parent.get(C.b))),this.__ɵDomSharedStylesHost_35},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_ɵDomRendererFactory2_36",{get:function(){return null==this.__ɵDomRendererFactory2_36&&(this.__ɵDomRendererFactory2_36=new C.m(this._EventManager_34,this._ɵDomSharedStylesHost_35)),this.__ɵDomRendererFactory2_36},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_RendererFactory2_37",{get:function(){return null==this.__RendererFactory2_37&&(this.__RendererFactory2_37=this._ɵDomRendererFactory2_36),this.__RendererFactory2_37},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_ɵSharedStylesHost_38",{get:function(){return null==this.__ɵSharedStylesHost_38&&(this.__ɵSharedStylesHost_38=this._ɵDomSharedStylesHost_35),this.__ɵSharedStylesHost_38},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_Testability_39",{get:function(){return null==this.__Testability_39&&(this.__Testability_39=new I.M(this.parent.get(I.y))),this.__Testability_39},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_Meta_40",{get:function(){return null==this.__Meta_40&&(this.__Meta_40=new C.h(this.parent.get(C.b))),this.__Meta_40},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_Title_41",{get:function(){return null==this.__Title_41&&(this.__Title_41=new C.j(this.parent.get(C.b))),this.__Title_41},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_ɵi_42",{get:function(){return null==this.__ɵi_42&&(this.__ɵi_42=new z.k),this.__ɵi_42},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_FormBuilder_43",{get:function(){return null==this.__FormBuilder_43&&(this.__FormBuilder_43=new z.c),this.__FormBuilder_43},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_AlertController_47",{get:function(){return null==this.__AlertController_47&&(this.__AlertController_47=new H.a(this._App_8,this._Config_5)),this.__AlertController_47},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_Events_48",{get:function(){return null==this.__Events_48&&(this.__Events_48=new G.a),this.__Events_48},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_Form_49",{get:function(){return null==this.__Form_49&&(this.__Form_49=new U.a),this.__Form_49},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_Haptic_50",{get:function(){return null==this.__Haptic_50&&(this.__Haptic_50=new W.a(this._Platform_4)),this.__Haptic_50},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_Keyboard_51",{get:function(){return null==this.__Keyboard_51&&(this.__Keyboard_51=new x.a(this._Config_5,this._Platform_4,this.parent.get(I.y),this._DomController_6)),this.__Keyboard_51},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_LocationStrategy_53",{get:function(){return null==this.__LocationStrategy_53&&(this.__LocationStrategy_53=F.c(this.parent.get(L.o),this._APP_BASE_HREF_45,this._Config_5)),this.__LocationStrategy_53},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_Location_54",{get:function(){return null==this.__Location_54&&(this.__Location_54=new L.d(this._LocationStrategy_53)),this.__Location_54},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_UrlSerializer_55",{get:function(){return null==this.__UrlSerializer_55&&(this.__UrlSerializer_55=Fn.d(this._App_8,this._DeepLinkConfigToken_10)),this.__UrlSerializer_55},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_DeepLinker_56",{get:function(){return null==this.__DeepLinker_56&&(this.__DeepLinker_56=_n.b(this._App_8,this._UrlSerializer_55,this._Location_54,this._ModuleLoader_13,this.componentFactoryResolver)),this.__DeepLinker_56},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_ModalController_57",{get:function(){return null==this.__ModalController_57&&(this.__ModalController_57=new V.a(this._App_8,this._Config_5,this._DeepLinker_56)),this.__ModalController_57},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_TapClick_60",{get:function(){return null==this.__TapClick_60&&(this.__TapClick_60=new K.a(this._Config_5,this._Platform_4,this._DomController_6,this._App_8,this._GestureController_9)),this.__TapClick_60},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_TransitionController_62",{get:function(){return null==this.__TransitionController_62&&(this.__TransitionController_62=new Z.a(this._Platform_4,this._Config_5)),this.__TransitionController_62},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_StatusBar_63",{get:function(){return null==this.__StatusBar_63&&(this.__StatusBar_63=new S.a),this.__StatusBar_63},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_SplashScreen_64",{get:function(){return null==this.__SplashScreen_64&&(this.__SplashScreen_64=new E.a),this.__SplashScreen_64},enumerable:!0,configurable:!0}),l.prototype.createInternal=function(){return this._CommonModule_0=new L.b,this._ErrorHandler_1=new O.a,this._ConfigToken_2=null,this._PlatformConfigToken_3=Nn.b(),this._Platform_4=on.b(this.parent.get(C.b),this._PlatformConfigToken_3,this.parent.get(I.y)),this._Config_5=un.c(this._ConfigToken_2,this._Platform_4),this._DomController_6=new D.a(this._Platform_4),this._MenuController_7=new M.a,this._App_8=new R.a(this._Config_5,this._Platform_4,this._MenuController_7),this._GestureController_9=new j.g(this._App_8),this._DeepLinkConfigToken_10={links:[{loadChildren:"../pages/bet-form/bet-form.module.ngfactory#BetFormPageModuleNgFactory",name:"bet-form",segment:"bet-form",priority:"low",defaultHistory:[]}]},this._Compiler_11=new I.i,this._NgModuleLoader_12=new v.a(this._Compiler_11),this._ModuleLoader_13=Hn.c(this._NgModuleLoader_12,this),this._APP_INITIALIZER_14=[I._18,C.r(this.parent.get(C.i,null),this.parent.get(I.x,null)),Gn.a(this._Config_5),G.b(this._Platform_4,this._DomController_6),K.b(this._Config_5,this._Platform_4,this._DomController_6,this._App_8,this._GestureController_9),Hn.d(this._Config_5,this._DeepLinkConfigToken_10,this._ModuleLoader_13,this.parent.get(I.y))],this._ApplicationInitStatus_15=new I.d(this._APP_INITIALIZER_14),this._ɵf_16=new I._5(this.parent.get(I.y),this.parent.get(I.Y),this,this._ErrorHandler_1,this.componentFactoryResolver,this._ApplicationInitStatus_15),this._ApplicationRef_17=this._ɵf_16,this._ApplicationModule_18=new I.e(this._ApplicationRef_17),this._BrowserModule_19=new C.a(this.parent.get(C.a,null)),this._ɵba_20=new z.j,this._FormsModule_21=new z.d,this._ReactiveFormsModule_22=new z.i,this._IonicModule_23=new F.a,this._AppModule_24=new T,this._AppRootToken_44=P,this._APP_BASE_HREF_45="/",this._AppModule_24},l.prototype.getInternal=function(n,l){return n===L.b?this._CommonModule_0:n===I.l?this._ErrorHandler_1:n===un.b?this._ConfigToken_2:n===Nn.a?this._PlatformConfigToken_3:n===on.a?this._Platform_4:n===un.a?this._Config_5:n===D.a?this._DomController_6:n===M.a?this._MenuController_7:n===R.a?this._App_8:n===j.g?this._GestureController_9:n===Fn.a?this._DeepLinkConfigToken_10:n===I.i?this._Compiler_11:n===v.a?this._NgModuleLoader_12:n===Hn.b?this._ModuleLoader_13:n===I.c?this._APP_INITIALIZER_14:n===I.d?this._ApplicationInitStatus_15:n===I._5?this._ɵf_16:n===I.f?this._ApplicationRef_17:n===I.e?this._ApplicationModule_18:n===C.a?this._BrowserModule_19:n===z.j?this._ɵba_20:n===z.d?this._FormsModule_21:n===z.i?this._ReactiveFormsModule_22:n===F.a?this._IonicModule_23:n===T?this._AppModule_24:n===I.u?this._LOCALE_ID_25:n===L.j?this._NgLocalization_26:n===I.b?this._APP_ID_27:n===I.s?this._IterableDiffers_28:n===I.t?this._KeyValueDiffers_29:n===C.c?this._DomSanitizer_30:n===I.H?this._Sanitizer_31:n===C.f?this._HAMMER_GESTURE_CONFIG_32:n===C.d?this._EVENT_MANAGER_PLUGINS_33:n===C.e?this._EventManager_34:n===C.n?this._ɵDomSharedStylesHost_35:n===C.m?this._ɵDomRendererFactory2_36:n===I.F?this._RendererFactory2_37:n===C.q?this._ɵSharedStylesHost_38:n===I.M?this._Testability_39:n===C.h?this._Meta_40:n===C.j?this._Title_41:n===z.k?this._ɵi_42:n===z.c?this._FormBuilder_43:n===Un.a?this._AppRootToken_44:n===L.a?this._APP_BASE_HREF_45:n===H.a?this._AlertController_47:n===G.a?this._Events_48:n===U.a?this._Form_49:n===W.a?this._Haptic_50:n===x.a?this._Keyboard_51:n===L.e?this._LocationStrategy_53:n===L.d?this._Location_54:n===Fn.b?this._UrlSerializer_55:n===_n.a?this._DeepLinker_56:n===V.a?this._ModalController_57:n===K.a?this._TapClick_60:n===Z.a?this._TransitionController_62:n===S.a?this._StatusBar_63:n===E.a?this._SplashScreen_64:l},l.prototype.destroyInternal=function(){this._ɵf_16.ngOnDestroy(),this.__ɵDomSharedStylesHost_35&&this._ɵDomSharedStylesHost_35.ngOnDestroy()},l}(I.Z),Vn=new I.v(xn,T);Object(I.S)(),Object(C.k)().bootstrapModuleFactory(Vn)},97:function(n,l){function t(n){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+n+"'.")})}t.keys=function(){return[]},t.resolve=t,n.exports=t,t.id=97}},[124]);
+webpackJsonp([1],{
+
+/***/ 106:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 106;
+
+/***/ }),
+
+/***/ 147:
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"../pages/bet-form/bet-form.module": [
+		261,
+		0
+	]
+};
+function webpackAsyncContext(req) {
+	var ids = map[req];
+	if(!ids)
+		return Promise.reject(new Error("Cannot find module '" + req + "'."));
+	return __webpack_require__.e(ids[1]).then(function() {
+		return __webpack_require__(ids[0]);
+	});
+};
+webpackAsyncContext.keys = function webpackAsyncContextKeys() {
+	return Object.keys(map);
+};
+webpackAsyncContext.id = 147;
+module.exports = webpackAsyncContext;
+
+/***/ }),
+
+/***/ 191:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(48);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var HomePage = (function () {
+    function HomePage(modalController, alertController, appRef) {
+        this.modalController = modalController;
+        this.alertController = alertController;
+        this.appRef = appRef;
+        this.sportsBet = {
+            state: -1,
+            winningTip: 0,
+            owner: '',
+            name: '',
+            total: 0,
+            yourBet: {
+                tip: 0,
+                amount: 0
+            },
+            tipAmounts: [],
+            odds: []
+        };
+    }
+    Object.defineProperty(HomePage.prototype, "state", {
+        get: function () {
+            switch (this.sportsBet.state) {
+                case 0:
+                    return 'Offen';
+                case 1:
+                    return 'Gesperrt';
+                case 2:
+                    return 'Finalisiert';
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    HomePage.prototype.continousReload = function () {
+        var _this = this;
+        this.reloadData();
+        setTimeout(function () {
+            _this.continousReload();
+        }, 40000);
+    };
+    HomePage.prototype.ionViewDidEnter = function () {
+        if (window['web3']) {
+            this.web3 = window['web3'];
+            var SportsBet = this.web3.eth.contract(this.getAbi());
+            this.sportsBetContractInstance = SportsBet.at('0xbee0dd7967b85cb83edff86d21df641a09ff9bb0');
+            this.continousReload();
+        }
+    };
+    HomePage.prototype.isOwner = function () {
+        if (this.web3 && this.web3.eth.defaultAccount) {
+            return this.web3.eth.defaultAccount == this.sportsBet.owner;
+        }
+        else {
+            return false;
+        }
+    };
+    HomePage.prototype.reloadData = function () {
+        var _this = this;
+        this.sportsBetContractInstance.owner.call(function (err, res) { _this.sportsBet.owner = res; _this.appRef.tick(); });
+        this.sportsBetContractInstance.game.call(function (err, res) { _this.sportsBet.name = res; _this.appRef.tick(); });
+        this.sportsBetContractInstance.winningTip.call(function (err, res) { _this.sportsBet.winningTip = res; _this.appRef.tick(); });
+        this.sportsBetContractInstance.total.call(function (err, res) { _this.sportsBet.total = _this.web3.fromWei(res, 'ether'); _this.appRef.tick(); });
+        this.sportsBetContractInstance.getTipAmount(1, function (err, res) { _this.sportsBet.tipAmounts[0] = _this.web3.fromWei(res, 'ether'); _this.appRef.tick(); });
+        this.sportsBetContractInstance.getTipAmount(2, function (err, res) { _this.sportsBet.tipAmounts[1] = _this.web3.fromWei(res, 'ether'); _this.appRef.tick(); });
+        this.sportsBetContractInstance.getTipAmount(3, function (err, res) { _this.sportsBet.tipAmounts[2] = _this.web3.fromWei(res, 'ether'); _this.appRef.tick(); });
+        this.sportsBetContractInstance.odds(1, function (err, res) { _this.sportsBet.odds[0] = _this.web3.toDecimal(res); _this.appRef.tick(); });
+        this.sportsBetContractInstance.odds(2, function (err, res) { _this.sportsBet.odds[1] = _this.web3.toDecimal(res); _this.appRef.tick(); });
+        this.sportsBetContractInstance.odds(3, function (err, res) { _this.sportsBet.odds[2] = _this.web3.toDecimal(res); _this.appRef.tick(); });
+        this.sportsBetContractInstance.getBetState(function (err, res) { _this.sportsBet.state = _this.web3.toDecimal(res); _this.appRef.tick(); });
+        setTimeout(function () {
+            if (_this.web3.eth.defaultAccount) {
+                _this.sportsBetContractInstance.getBet(_this.web3.eth.defaultAccount, function (err, res) {
+                    _this.sportsBet.yourBet.tip = _this.web3.toDecimal(res[0]);
+                    _this.sportsBet.yourBet.amount = _this.web3.fromWei(res[1], 'ether');
+                    _this.appRef.tick();
+                });
+            }
+        }, 100);
+    };
+    HomePage.prototype.lockBet = function () {
+        var _this = this;
+        this.alertController.create({
+            title: 'Sportwette sperren',
+            message: 'Wollen Sie die Wette jetzt sperren?',
+            buttons: [
+                {
+                    text: 'Abbrechen'
+                },
+                {
+                    text: 'Ja',
+                    handler: function () {
+                        _this.sportsBetContractInstance.lockBet(function (err, res) {
+                            if (!err) {
+                                _this.reloadData();
+                            }
+                        });
+                    }
+                }
+            ]
+        }).present();
+    };
+    HomePage.prototype.bet = function () {
+        var _this = this;
+        var modal = this.modalController.create('bet-form');
+        modal.present();
+        modal.onDidDismiss(function (data) {
+            if (data && data.tip > 0 && data.amount > 0) {
+                _this.sportsBetContractInstance.bet(data.tip, { value: _this.web3.toWei(data.amount, 'ether') }, function (err, res) {
+                    if (!err) {
+                        _this.reloadData();
+                    }
+                });
+            }
+        });
+    };
+    HomePage.prototype.finalizeBet = function () {
+        var _this = this;
+        var alert = this.alertController.create({
+            title: 'Wette abschließen'
+        });
+        alert.addInput({
+            type: 'radio',
+            label: 'Team 1',
+            value: '1',
+            checked: false
+        }).addInput({
+            type: 'radio',
+            label: 'Team 2',
+            value: '2',
+            checked: false
+        }).addInput({
+            type: 'radio',
+            label: 'Unentschieden',
+            value: '3',
+            checked: false
+        }).addButton('Abbrechen').addButton({
+            text: 'Ja',
+            handler: function (data) {
+                _this.sportsBetContractInstance.finalizeBet(data, function (err, res) {
+                    if (!err) {
+                        _this.reloadData();
+                    }
+                });
+            }
+        }).present();
+    };
+    HomePage.prototype.payout = function () {
+        var _this = this;
+        this.sportsBetContractInstance.payout(function (err, res) {
+            if (!err) {
+                _this.reloadData();
+            }
+        });
+    };
+    HomePage.prototype.getAbi = function () {
+        return [
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "_winningTip",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "finalizeBet",
+                "outputs": [],
+                "payable": false,
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [],
+                "name": "lockBet",
+                "outputs": [],
+                "payable": false,
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "total",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [
+                    {
+                        "name": "tip",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "getTipAmount",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [
+                    {
+                        "name": "tip",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "odds",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [],
+                "name": "payout",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "bool"
+                    }
+                ],
+                "payable": false,
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "tip",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "bet",
+                "outputs": [],
+                "payable": true,
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "getBetState",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint8"
+                    }
+                ],
+                "payable": false,
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "owner",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "address"
+                    }
+                ],
+                "payable": false,
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "winningTip",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "game",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "string"
+                    }
+                ],
+                "payable": false,
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "locked",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "bool"
+                    }
+                ],
+                "payable": false,
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [
+                    {
+                        "name": "_betOwner",
+                        "type": "address"
+                    }
+                ],
+                "name": "getBet",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "name": "_game",
+                        "type": "string"
+                    }
+                ],
+                "payable": false,
+                "type": "constructor"
+            }
+        ];
+    };
+    return HomePage;
+}());
+HomePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-home',template:/*ion-inline-start:"/home/stefan/00_bloqs/scenario01/dapp/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Sportwetten\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n  <ion-card *ngIf="!web3">\n      <ion-item text-wrap>\n        <ion-avatar item-start>\n          <ion-icon color="danger" name="alert"></ion-icon>            \n        </ion-avatar>\n        <h2>Nutzungshinweis</h2>\n        <p>Um diese Anwendung nutzen zu können wird das Browser Plugin <a target="_blank" href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn">MetaMask</a> benötigt. Diese Anwendung soll am Beispiel von Sportwetten die Funktionsweise von Smart Contracts demonstrieren. Der <a target="_blank" href="https://ropsten.etherscan.io/address/0xbee0dd7967b85cb83edff86d21df641a09ff9bb0">Smart Contract</a> wird im Ethereum Testnetzwerk (Ropsten) betrieben. Mittels einer sog. Faucet können Ethereum Ropsten Tokens kostenlos bezogen werden und damit kann an der Sportwette teilgenommen werden.</p>\n\n        <ol>\n          <li>Download des MetaMask Chrome Plugins</li>\n          <li>Ropsten Test Network auswählen im MetaMask Plugin</li>\n          <li>Über den Button "Buy" kostenlos Ethereum Testnet Token beziehen</li>\n          <li>Seite neu Laden und Wetteinsatz plazieren</li>          \n        </ol>\n      </ion-item>     \n    \n  </ion-card>\n\n  <ion-card *ngIf="web3">\n      <ion-item text-wrap>\n          <ion-avatar item-start>\n            <ion-icon color="danger" name="alert"></ion-icon>            \n          </ion-avatar>\n          <h2>Nutzungshinweis</h2>\n          <ul>\n            <li>Bis zum Spielbeginn (02.09.2017, 20:45) können Wetten abgegeben werden. (Status: Offen)</li>\n            <li>Nach Spielbeginn wird der Status auf \'Gesperrt\' gesetzt und es können keine Wetten mehr abgeschlossen werden.</li>\n            <li>Nach Spielende können Wettgewinne ausgezahlt werden. (Status: Finalisiert)</li>\n          </ul>\n        </ion-item>     \n  </ion-card>\n\n  <ion-card *ngIf="web3">\n    <ion-card-header>\n        {{ sportsBet.name }}\n    </ion-card-header>\n    \n    <ion-list>\n      <ion-item>\n        <ion-note item-start>\n          Gesamter Wetteinsatz: {{ sportsBet.total }} ETH<br>\n          Status: {{ state }}<br>\n          Smart Contract: <a target="_blank" href="https://ropsten.etherscan.io/address/0xbee0dd7967b85cb83edff86d21df641a09ff9bb0">0xbee0dd7967b85cb83edff86d21df641a09ff9bb0</a><br>\n          Ersteller: <a target="_blank" [href]="\'https://ropsten.etherscan.io/address/\' + sportsBet.owner">{{ sportsBet.owner }}</a>\n        </ion-note>\n      </ion-item>\n\n      <ion-item>\n\n        <ion-grid>\n          <ion-row>\n            <ion-col col-2><b>Tipp</b></ion-col>\n            <ion-col col-3><b>Wetteinsätze</b></ion-col>\n            <ion-col col-3><b>Ihr Einsatz</b></ion-col>\n            <ion-col col-3><b>Wettquote</b></ion-col>\n          </ion-row>\n          <ion-row [ngClass]="{ winner : (sportsBet.winningTip == 1) }">\n            <ion-col col-2>Team 1</ion-col>\n            <ion-col col-3 *ngIf="sportsBet.tipAmounts[0]">{{ sportsBet.tipAmounts[0] }} ETH</ion-col>\n            <ion-col col-3>\n              <ng-container *ngIf="sportsBet.yourBet.tip == 1">{{ sportsBet.yourBet.amount }} ETH</ng-container>\n            </ion-col>\n            <ion-col col-3 *ngIf="sportsBet.odds[0]">1:{{ sportsBet.odds[0] / 100 }}</ion-col>\n          </ion-row>\n          <ion-row [ngClass]="{ winner : (sportsBet.winningTip == 2) }">\n            <ion-col col-2>Team 2</ion-col>\n            <ion-col col-3 *ngIf="sportsBet.tipAmounts[1]">{{ sportsBet.tipAmounts[1] }} ETH</ion-col>\n            <ion-col col-3>\n                <ng-container *ngIf="sportsBet.yourBet.tip == 2">{{ sportsBet.yourBet.amount }} ETH</ng-container>\n              </ion-col>\n            <ion-col col-3 *ngIf="sportsBet.odds[1]">1:{{ sportsBet.odds[1] / 100 }}</ion-col>\n          </ion-row>\n          <ion-row [ngClass]="{ winner : (sportsBet.winningTip == 3) }">\n            <ion-col col-2>Unentschieden</ion-col>\n            <ion-col col-3 *ngIf="sportsBet.tipAmounts[2]">{{ sportsBet.tipAmounts[2] }} ETH</ion-col>\n            <ion-col col-3>\n                <ng-container *ngIf="sportsBet.yourBet.tip == 3">{{ sportsBet.yourBet.amount }} ETH</ng-container>\n              </ion-col>\n            <ion-col col-3 *ngIf="sportsBet.odds[2]">1:{{ sportsBet.odds[2] / 100 }}</ion-col>\n          </ion-row>\n        </ion-grid>\n\n      </ion-item>\n\n      <ion-item>\n        <button *ngIf="sportsBet.state == 0" ion-button (click)="bet()">Tipp abgeben</button>\n        <button *ngIf="sportsBet.state == 0 && isOwner()" ion-button (click)="lockBet()" color="danger">Wette sperren</button>\n        <button *ngIf="sportsBet.state == 1 && isOwner()" ion-button (click)="finalizeBet()" color="danger">Wette abschließen</button>\n        <button *ngIf="sportsBet.state == 2 && sportsBet.winningTip == sportsBet.yourBet.tip && sportsBet.yourBet.amount > 0" ion-button (click)="payout()" color="secondary">Gewinn auszahlen</button>\n\n        <p class="winner" *ngIf="sportsBet.state == 2 && sportsBet.winningTip == sportsBet.yourBet.tip && sportsBet.yourBet.amount > 0">Ihr Gewinn wurde bereits ausbezahlt.</p>\n        <p class="loser" *ngIf="sportsBet.state == 2 && sportsBet.winningTip != sportsBet.yourBet.tip">Leider hat Ihr Tipp nicht gewonnen.</p>\n      </ion-item>\n\n    </ion-list>\n\n  </ion-card>\n\n  \n\n</ion-content>\n'/*ion-inline-end:"/home/stefan/00_bloqs/scenario01/dapp/src/pages/home/home.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* ApplicationRef */]])
+], HomePage);
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 192:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(211);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 211:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(191);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */]
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
+                links: [
+                    { loadChildren: '../pages/bet-form/bet-form.module#BetFormPageModule', name: 'bet-form', segment: 'bet-form', priority: 'low', defaultHistory: [] }
+                ]
+            })
+        ],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
+        entryComponents: [
+            __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */]
+        ],
+        providers: [
+            __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
+            { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] }
+        ]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 260:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(191);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */];
+        platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            statusBar.styleDefault();
+            splashScreen.hide();
+        });
+    }
+    return MyApp;
+}());
+MyApp = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/stefan/00_bloqs/scenario01/dapp/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/stefan/00_bloqs/scenario01/dapp/src/app/app.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+], MyApp);
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ })
+
+},[192]);
+//# sourceMappingURL=main.js.map
