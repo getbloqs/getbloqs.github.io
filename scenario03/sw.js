@@ -28,15 +28,11 @@ const fileManifest = [
   },
   {
     "url": "build/app.js",
-    "revision": "fe913405864ec6bc40eebf014bcedbba"
+    "revision": "914ac4d092a5dacbcc25e743e84c2aa6"
   },
   {
     "url": "build/app/0qpvwtj5.js",
     "revision": "51d8b094b1d052034c29969ba93493e5"
-  },
-  {
-    "url": "build/app/8arrg4kn.js",
-    "revision": "f5e74185646018860a182d69a733f6a3"
   },
   {
     "url": "build/app/9a6sgbwl.js",
@@ -60,7 +56,7 @@ const fileManifest = [
   },
   {
     "url": "build/app/app.registry.json",
-    "revision": "d4bb22e789d6f3af90b1a7fd965006ce"
+    "revision": "901571a44911dbb5fedc11c6446381e6"
   },
   {
     "url": "build/app/cdtznoou.js",
@@ -83,6 +79,14 @@ const fileManifest = [
     "revision": "ffc441a6d80e551589ad18def9bf6896"
   },
   {
+    "url": "build/app/rmmvhybl.js",
+    "revision": "2d3101c1c91184a6ced0f93c779509ec"
+  },
+  {
+    "url": "build/app/tdicstr8.js",
+    "revision": "910d69a41a37db97310089d297fb0b60"
+  },
+  {
     "url": "build/app/vtax21yh.js",
     "revision": "d50a19a9824a866872f00c935fa7169f"
   },
@@ -93,10 +97,6 @@ const fileManifest = [
   {
     "url": "build/app/zqpqezuh.js",
     "revision": "ce534508a0439430b5eaa7182357b94f"
-  },
-  {
-    "url": "build/app/zr9x4ncr.js",
-    "revision": "2e1b73d5bd74e0f514a9918c6b6402c7"
   },
   {
     "url": "contract.config.json",
