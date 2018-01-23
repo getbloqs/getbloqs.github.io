@@ -229,8 +229,8 @@
     [
       "subdomain-registrations",
       [
-        "qhzq8jo3",
-        "nvbtrqym"
+        "smri1fjg",
+        "vd6cff7y"
       ],
       0,
       [
@@ -245,11 +245,15 @@
     [
       "subdomain-registry-app",
       [
-        "qhzq8jo3",
-        "nvbtrqym"
+        "smri1fjg",
+        "vd6cff7y"
       ],
       1,
       [
+        [
+          "contract",
+          5
+        ],
         [
           "countRegistrations",
           5
