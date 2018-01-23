@@ -28,7 +28,11 @@ const fileManifest = [
   },
   {
     "url": "build/app.js",
-    "revision": "6117d62f50067a1c31f3b71f8e47d5a8"
+    "revision": "8b8df23291ff672b1c7a5c58761d9bc7"
+  },
+  {
+    "url": "build/app/4nback1s.js",
+    "revision": "f461daaefa5270826f1350aa7530e3b3"
   },
   {
     "url": "build/app/4t0g4mnn.js",
@@ -56,11 +60,7 @@ const fileManifest = [
   },
   {
     "url": "build/app/app.registry.json",
-    "revision": "7d6d7657348286c0deef516c29c887c5"
-  },
-  {
-    "url": "build/app/bfp6yida.js",
-    "revision": "be1071bad05c9302ca5ac29bdcb47a8d"
+    "revision": "ebbba453dbcdf365b2db2f2a0e4db862"
   },
   {
     "url": "build/app/cv7cbtbi.js",
@@ -79,10 +79,6 @@ const fileManifest = [
     "revision": "7682694bf50c64455a96d372ba21d940"
   },
   {
-    "url": "build/app/llcl7fma.js",
-    "revision": "720d9f92986c724376e275d968129665"
-  },
-  {
     "url": "build/app/orsdhirh.js",
     "revision": "7438a81d2db06c201be7ba516d9071ca"
   },
@@ -99,8 +95,12 @@ const fileManifest = [
     "revision": "25d03519f99399851b14fdc57d211da6"
   },
   {
+    "url": "build/app/zhfoqs6f.js",
+    "revision": "26b9ce2812536f7036cfcf27b73f29d3"
+  },
+  {
     "url": "contract.config.json",
-    "revision": "7c2d9a7cb4815b256886b6fef6f036e6"
+    "revision": "ae23daedc4ac1757253db25fcbc786ff"
   },
   {
     "url": "contracts/BasicToken.json",
@@ -124,7 +124,7 @@ const fileManifest = [
   },
   {
     "url": "contracts/Migrations.json",
-    "revision": "f4eb2b71ba4171c4b5213226438cadc2"
+    "revision": "444e428e2828e9c5b28f837e7b41e17c"
   },
   {
     "url": "contracts/MintableToken.json",
@@ -132,7 +132,7 @@ const fileManifest = [
   },
   {
     "url": "contracts/Ownable.json",
-    "revision": "a52430d9bfd5c277562dc9592f160a2a"
+    "revision": "7873b1f827326236360dad5b44abce6d"
   },
   {
     "url": "contracts/SafeMath.json",
@@ -144,7 +144,7 @@ const fileManifest = [
   },
   {
     "url": "contracts/SubdomainRedirect.json",
-    "revision": "ec4abfadaf5769a8e5f7bf3586bcfec2"
+    "revision": "40207f44e115441321c09783534f1e74"
   },
   {
     "url": "index.html",
